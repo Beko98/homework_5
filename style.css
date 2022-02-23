@@ -3,19 +3,26 @@ header {
   display: inline-block;
 }
 
-ul {
+nav {
   display: inline-block;
-  text-align: top;
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logo {
   margin-right: 90px;
+  vertical-align: middle;
 }
 
 .me {
   width: 30px;
   border-radius: 50px;
   display: inline-block;
+  margin-left: 40px;
 }
 
 a {
@@ -27,15 +34,9 @@ a {
   margin: 0 auto;
 }
 
-.wrapper {
-  display: inline-block;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .card {
   width: 30%;
-
+  display: inline-block;
   border-radius: 12px;
 }
 .card-head {
@@ -56,8 +57,18 @@ a {
 
 .card-body {
   padding: 20px;
+  background-color: white;
 }
 
 .time {
   margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 25px;
 }
